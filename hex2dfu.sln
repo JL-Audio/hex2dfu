@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hex2dfu", "hex2dfu.vcxproj", "{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getopt_mb_uni_vc10_dll", "getopt-win32\getopt_mb_uni_vc10_dll\getopt_mb_uni_vc10_dll.vcxproj", "{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Dll|x86 = Debug Dll|x86
+		Debug Lib|x86 = Debug Lib|x86
+		Debug|x86 = Debug|x86
+		Release Dll|x86 = Release Dll|x86
+		Release Lib|x86 = Release Lib|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Debug Dll|x86.ActiveCfg = Debug|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Debug Dll|x86.Build.0 = Debug|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Debug Lib|x86.ActiveCfg = Debug|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Debug Lib|x86.Build.0 = Debug|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Debug|x86.ActiveCfg = Debug|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Debug|x86.Build.0 = Debug|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Release Dll|x86.ActiveCfg = Release|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Release Dll|x86.Build.0 = Release|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Release Lib|x86.ActiveCfg = Release|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Release Lib|x86.Build.0 = Release|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Release|x86.ActiveCfg = Release|Win32
+		{B197C6C6-F9E5-490C-BAA3-0654FB9D5406}.Release|x86.Build.0 = Release|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Debug Dll|x86.ActiveCfg = Debug Dll|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Debug Dll|x86.Build.0 = Debug Dll|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Debug|x86.ActiveCfg = Debug Dll|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Debug|x86.Build.0 = Debug Dll|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Release Dll|x86.ActiveCfg = Release Dll|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Release Dll|x86.Build.0 = Release Dll|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Release Lib|x86.ActiveCfg = Release Lib|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Release Lib|x86.Build.0 = Release Lib|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Release|x86.ActiveCfg = Release Dll|Win32
+		{4BBAEAA1-9AD1-42D2-B6DC-7F73C4B3D238}.Release|x86.Build.0 = Release Dll|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90954115-482A-4B1F-8601-55CBA357E502}
+	EndGlobalSection
+EndGlobal

@@ -3,12 +3,12 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
+#include "getopt.h"
 
 #define TARGET_NAME_ENCEDO  "EncedoKey"
 
 #ifndef ED25519_SUPPORT
-#define ED25519_SUPPORT 1
+#define ED25519_SUPPORT 0
 #endif
 
 #if ED25519_SUPPORT
